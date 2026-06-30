@@ -1,4 +1,5 @@
 [#] Requisitos Funcionais:
+
 	[*] Primeiro sprint:
 	- permitir inserção, alteração e exclusão
 	- permitir a inclusão de vídeo do sinal 
@@ -13,11 +14,13 @@
 	
 
 [#] Requisitos Não-Funcionais:
+
 	[*] Quarto sprint:
 	- melhorar a legibilidade do website
 	- adicionar suporte para screen reader/outras linguagens
 
 [#] Engenharia de Requisitos
+
 	[*] Tipos de usuários:
 	- estudantes de libras
 	- professores de libras
@@ -30,13 +33,17 @@
 	[*] Conformidade LGPD
 
 [#] Modelagem de Software
+
 	[*] Diagrama UMl
 	- Diagrama de Classes
 	- Diagrama de Sequência
 	- Diagrama de Atividades
 
 [#] Padrão Arquitetural
+
 	- vamos pesquisar qual que é e descobrir
 
 [#] Desenvolvimento Colaborativo
-	- utilização do Trello para organização do workflow 	
+
+	- A organização do workflow está sendo estruturada a partir de uma board no serviço Trello:
+	 [https://trello.com/invite/b/6a43c733c9197ad320d70ee3/ATTI013f7d81f399173f556d42e7018e6e7721DB29AF/my-trello-board]	
