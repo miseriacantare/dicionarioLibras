@@ -41,7 +41,7 @@
 
 [#] Padrão Arquitetural
 
-	- vamos pesquisar qual que é e descobrir
+	- Arquitetura Model-View-Controller Web (MVC web).
 
 [#] Desenvolvimento Colaborativo
 
