@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<!--Please don't read my code it's probably gonna make you wanna gouge your own eyes out with a spoon. I do haskell stuf. This is way out of my lane.-->
+<head>
+
+	<script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script> 
+	<title> xx </title>
+	<link href="xnsex.css" rel="stylesheet" type="text/css" media="all">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+</head>
+
+<body>
+
+	<div class="container">
+	<header>
+		<span> No Side Effects </span>
+	</header>
+	<div class="small">
+		<nav>
+			<div> xXx </div>
+			<p><a href="">Pro Wrestling </a></p>
+			<p><a href="">Category Theory </a></p>
+			<p><a href="">Functional Programming </a></p>
+			<p><a href="">Literature and Philosophy</a></p>
+			<p><a href="">Music </a></p>
+			<p><a href="">Personal </a> </p>
+			<br>
+			<br>
+			<center><img src="assets/gargoyleright.gif"></center>
+		</nav>
+	</div>
+
+	<section class="large"> 
+		<center><img src="assets/gargoyle.gif"> </center>
+		<h1>Welcome to No Side Effects!</h1>
+		<p> For now, this is a work in progress. I'm probably turning this into a sort of a diary on how it is to do research in category and type theory (slightly depressing in the current climate) and share a couple of resources about these things and the fun stuff you can make with them.
+		</p>
+		<p> For now, this is a work in progress. I hope to share resources about category theory, functional programming and all the fun ways you can apply it as well as my thoughts on pro wrestling and underground music. Until then, keep your body like you keep your code: no side effects.</p>
+	</section>
+
+	<section class="large">
+    <center>
+    <h1> Journal </h1>
+    </center>
+	<p> The journal is where I keep my thoughts short and hardly sweet. Dates are for when entries were written, not posted.</p>
+	<p> <a href=""> All entries </a> </p> 
+    </section>
+
+	<div class="small"> 
+		<nav>
+		<div> <h4> Radio Radio Radio </h4></div>
+                <p> When I've got the music, I've got a place to go... </p>
+				<p> Click here to spawn a music player with my current mix. I'll try to make a new one every month.</p>
+				<p> <button onclick="radioCurrent()"> Latest station</button>
+				<p> <a href=""> Radio archives </a>	</p>
+				<p> <a href=""> On my selection... </a> </p>
+<br>
+		<br>
+		<br>
+		<center><img src="assets/gargoyleleft.gif"></center>
+		</nav> 
+		</div>
+
+	<script>
+    function radioCurrent(){
+	var x = document.getElementById("winamp-container");
+    if(x.style.display="none") x.style.display = "block;"
+    else x.style.display = "none;"
+	}
+	</script>
+
+
+<div class="winamp" id="winamp-container">
+<!--	<div id="winamp-container" style="border=none, z-index=0, right:auto, bottom:auto, left:auto"></div>
+-->    <script>
+	const Winamp = window.Webamp;
+	const webamp = new Webamp({
+    // Optional.
+    initialTracks: [
+        {
+            metaData: {
+                artist: "AFI",
+                title: "Totalimmortal",
+            },
+            url: "https://audio.jukehost.co.uk/PGKdCnczwgIMsCY4bH0E089l53BpEo8u",
+        }, {
+            metaData: {
+                artist: "Danzig",
+                title: "Evil Thing",
+            },
+            url: "https://audio.jukehost.co.uk/9smByzdFlxdJmY2R6OhKGizllba5hvrm",
+        },
+        {
+            metaData: {
+                artist: "AFI",
+                title: "Halloween",
+            },
+            url: "https://audio.jukehost.co.uk/nwDSvh2uRfZ9MAljYgz6wjGJgvQn4pC8",
+        },
+      ],
+    initialSkin: {
+        url: "https://www.dl.dropboxusercontent.com/scl/fi/ao56o7hnnml4ter5f9j05/AFI_AMP.wsz?rlkey=ufemvr7mbohfyj564wqbaygoo&st=d3d50vh3&dl=0"
+    },
+});
+webamp.renderWhenReady(document.getElementById('winamp-container'));
+
+</script>
+</div
+
+
+
+
+
+
+	</div>
+
+	</div>
+	</div> </div>
+
+<footer>
+<span> you may yell at me at xnosideeffectsx@gmail.com </span>
+</footer>
+
+</body>
+</html>
