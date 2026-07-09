@@ -1,0 +1,74 @@
+   *{ font-family: Verdana, Arial, sans-serif; margin:0; padding:0;}
+body{ margin:0;	padding:0; color:#666252; font-size:12px; overflow-x: hidden; }
+   a{ text-decoration:none; color:#000000;}
+ img{ border:0;}
+ul li{list-style:none;}
+h1, h2, h3, h4, h5, h6{ font-size:14px; font-weight:normal;}
+
+/* ==================
+	CLASSES
+=====================*/
+.clear{	clear:both;}
+.center{ margin: 0 auto; width: 970px;}
+.col-middle{ width: 50%}
+.pull-left{ float: left;}
+.pull-right{ float: right}
+.row{ clear: both; display: block;}
+.strong{ font-weight: bold;}
+ul.list-inline{ padding:0;}
+ul.list-inline li{ display: inline;}
+
+/* ==================
+	CONTENT
+=====================*/
+body{ background-color: #CCC; }
+#container{ color: #000; margin-top: 20px; background: #FFF url("../img/body-bg.jpg") no-repeat top right;}
+#container #bg-splash{  width: 100%; height: 110%; background-color: #FFF; position: absolute; top: 0; left: 0; }
+#container .lightbox{ position: absolute; z-index: 9; top: 10px;}
+#container .lightbox h4{ font-size: 22px;}
+#container .lightbox h4, #container .lightbox h5{ margin: 20px 0; font-weight: bold;}
+#container .lightbox .close { float: right; font-size: 20px; position: absolute; width: 100%; display: block; text-align: right; top: 0; z-index: 9999; clear: both; color: darkred; }
+#container #container-libras-em-cd p.first{ margin-top: 120px; }
+#container input.text{ width: 95%; border: 1px solid #000; padding: 5px;}
+#container-header, #container-footer{ border: 5px #FFF solid; background-color: rgba(110,179,232,0.7); padding: 10px;}
+#container-header{ border-radius: 10px 10px 0 0; background-color: rgba(110,149,176,0.7);}
+#container-header h1{ width: 20%; color: #5faffe;  text-indent: -9999px; background: url("../img/logo_libras.png") no-repeat center center; color: #5faffe; text-shadow: 2px 3px 3px #000; font-size: 27px; letter-spacing: 5px; text-transform: uppercase; font-weight: bold; }
+#container-header h2{ width: 70%; text-align: left; color: #FFF; font-size: 23px; text-shadow: -1px 2px black, 0 1px black, 1px 0 black, 0 -1px black; margin-top: 2px; }
+#container-body{ background-color: rgba(243,233,172,0.5); padding: 10px; min-height: 400px;}
+#container-body .row{ padding-top: 10px}
+#container-body #line-1{}
+#container-body #line-1 option{ cursor: pointer;}
+#container-body #line-2, #container-body #line-3{ margin-top: 14px;}
+#container-body #line-3{ padding-bottom: 10px;}
+#container-footer{ border-radius: 0 0 10px 10px;}
+#container-footer h3{ background: url("../img/logo_acessibilidade_brasil.png") no-repeat center center; width: 250px; height: 41px; overflow: hidden; text-indent: -400px; }
+#container-footer ul{ margin-top: 13px;}
+#container-footer a{ font-weight: bold; padding-left: 8px; }
+#container-footer a span{ color: #FFF;}
+#container-body #filter-order{}
+#container-body #filter-order > .box{ border-collapse: collapse;}
+#container-body #filter-order > .box, #container-body #filter-order > .box th, #container-body #filter-order > .box td { border: 1px solid #000;}
+#container-body #filter-order td.field{ padding: 2px 5px;}
+#container-body #filter-order td.field.selected, #container-body #filter-order td:hover{ background-color: #b7cfe8;}
+#container-body #filter-letter{ padding-right: 30px;}
+#container-body #filter-letter a.selected{ color: #9fcaec;}
+#container-body .col{ float: left; width: 24%; margin-left: 1%;}
+#container-body .col > .col-title{ font-weight: bold; display: block; margin-bottom: 5px;}
+#container-body .col > .items { background-color: #FFF; border: 1px solid #000; width: auto; height: 115px; padding: 5px;}
+#container-body .col > .items > *{ width: 100%;}
+#container-body .col-1{ margin-left: 0;}
+#container-body .col-2{}
+#container-body .col-3{}
+#container-body #line-2 .col{}
+#container-body #line-3 .col{}
+#container-body #line-3 span{ margin-top: 5px;}
+#container-body .search td{ padding-top: 3px;}
+#container-body .search input.number{ width: 50%;}
+#container-body .search .btn.submit{ border: 1px solid #000; width: 80%; padding: 5px; background-color: #b7cfe8; color: #000; float: right; }
+#container-body .input-select{ width: 100% !important; padding: 0;}
+#container-body #input-palavras, #container-body #input-assunto{ height: 127px; }
+#container-body #input-classe, #container-body #input-origem{ height: 15px;}
+#container-body #input-exemplo, #container-body #input-libras{ height: 62px;}
+#container-body #input-mao, #container-body #input-image{ text-align: center;}
+#container-body #input-mao > img, #container-body #input-image > img{ width: auto; max-width:218px; max-height: 92px;}
+#container-body #input-image{ background: #FFF url(../img/bg-image.jpg) no-repeat center center; }
