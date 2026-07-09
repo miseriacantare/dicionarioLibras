@@ -150,6 +150,20 @@ select::-webkit-scrollbar-thumb:hover {
 	background: linear-gradient(to right,var(--bg),var(--gradientTop), var(--gradientTop));
 }
 
+.abtn{
+	margin: 5px;
+	background: linear-gradient(to right, var(--bg), var(--gradienBottom));
+	border-radius: 10px;
+	border: 5px ridge var(--accent);
+	padding: 2px 7px;
+	text-decoration: none;
+
+}
+
+.abtn:hover {
+	background: linear-gradient(to right,var(--bg),var(--gradientTop), var(--gradientTop));
+}
+
 
 .smallsec{
     	display: block;
